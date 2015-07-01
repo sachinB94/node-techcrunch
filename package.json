@@ -9,7 +9,20 @@
     "jshint": "jshint --verbose .",
     "build": "watch 'npm run jshint' src & npm run compile:es6"
   },
-  "author": "",
+  "author": "Sachin Bansal <sachinbansal94@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sachinb94/node-techcrunch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sachinb94/node-techcrunch/issues"
+  },
+  "keywords": [
+    "techcrunch",
+    "node-techcrunch",
+    "crunch",
+    "crunchbase"
+  ],
   "license": "MIT",
   "dependencies": {
     "x-ray": "^2.0.1"

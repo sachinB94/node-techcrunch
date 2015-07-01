@@ -1,6 +1,7 @@
 # node-9gag
 
 *A simple API for accessing techcrunch news*
+*(Built on ES6. Compiled by babel)*
 
 ## Installation
 
@@ -25,7 +26,7 @@ tc.crunchTag('tag')
     //     tag: ,
     //     author: ,
     //     timestamp: ,
-    //     excerpt: 
+    //     excerpt:
     //   }
     // ]
   })
@@ -44,7 +45,7 @@ tc.crunchLink('link')
     //   title: ,
     //   next: {
     //     title: ,
-    //     link: 
+    //     link:
     //   },
     //   text:
     // }
