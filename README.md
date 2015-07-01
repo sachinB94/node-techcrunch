@@ -1,4 +1,4 @@
-# node-9gag
+# node-techcrunch
 
 *A simple API for accessing techcrunch news*
 *(Built on ES6. Compiled by babel)*
