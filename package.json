@@ -1,6 +1,6 @@
 {
   "name": "node-techcrunch",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A simple API for accessing techcrunch news",
   "main": "dist/index.js",
   "scripts": {
