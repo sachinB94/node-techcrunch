@@ -54,3 +54,23 @@ tc.crunchLink('link')
     // error
   });
 ```
+
+- Get a latest single news as JSON
+
+```js
+tc.crunchLast()
+  .then(function(res) {
+    // success
+    // res = {
+    //   title: ,
+    //   next: {
+    //     title: ,
+    //     link:
+    //   },
+    //   text:
+    // }
+  })
+  .catch(function(err) {
+    // error
+  });
+```
