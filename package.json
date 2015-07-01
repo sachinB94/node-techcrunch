@@ -1,0 +1,24 @@
+{
+  "name": "node-techcrunch",
+  "version": "0.0.0",
+  "description": "A simple API for accessing techcrunch news",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:es6": "babel --watch src --out-dir dist --source-maps inline",
+    "jshint": "jshint --verbose .",
+    "build": "watch 'npm run jshint' src & npm run compile:es6"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "x-ray": "^2.0.1"
+  },
+  "devDependencies": {
+    "jshint": "^2.8.0",
+    "watch": "^0.16.0"
+  },
+  "jshintConfig": {
+    "esnext": true
+  }
+}
